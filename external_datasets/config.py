@@ -154,7 +154,7 @@ BUILD_WORKERS = int(os.environ.get("PUBLIC_BUILD_WORKERS", "8"))
 LCTP_CLASS_ORDER = ["DMSO", "AKT", "CDK", "HDAC", "MAPK", "PARP", "TUB"]    # label 0 = DMSO = control
 
 # ======================================================================================================
-# 3. TRAINING (values of the A549 / NCM460 runs)
+# 3. TRAINING (values of the A549 runs)
 # ======================================================================================================
 SEEDS = [1234, 42, 2025]                                   # Stage 3 is trained once per seed on the same frozen experts
 STAGE1_SEED = 1234
