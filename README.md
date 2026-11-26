@@ -1,7 +1,6 @@
 # Spatiotemporal graph fusion for image-sequence classification
 
-Code for the paper *Spatiotemporal graph fusion for image-sequence classification*. An appearance expert (one frame, full z-stack) and a spatiotemporal graph expert
-(all frames, image patches as graph nodes) are trained separately and combined by a class-wise gate that adds graph evidence to the appearance logits where the appearance
+Code for the paper "Spatiotemporal graph fusion for image-sequence classification". An appearance expert and a spatiotemporal graph expert are trained separately and combined by a class-wise gate that adds graph evidence to the appearance logits where the appearance
 expert is uncertain. The code covers the A549 and NCM460 live-cell recordings and three public datasets (LCTP, PASTIS, HyperKvasir).
 
 ## Installation
