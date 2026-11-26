@@ -1,0 +1,20 @@
+# Stage 2 (graph expert): settings of the run used for the manuscript.
+batch_size: 16
+channels:
+- mito
+- mmp
+- nuclear
+csv_path: data/split_table.csv
+depth: 2
+dropout: 0.15
+embed_dim: 128
+epochs: 80
+min_T: 3
+num_heads: 4
+num_workers: 8
+patch_stride: 8
+patience: 15
+seed: 1234
+selection_metric: macro_f1
+weight_decay: 0.0001
+weight_power: 0.5

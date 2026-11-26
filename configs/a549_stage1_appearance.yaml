@@ -1,0 +1,8 @@
+# Stage 1 (appearance expert): settings of the run used for the manuscript.
+batch_size: 32
+csv_path: data/split_table.csv
+embed_dim: 256
+epochs: 100
+num_workers: 16
+seed: 1234
+weight_power: 1.0
