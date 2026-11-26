@@ -11,7 +11,7 @@ cd Spatiotemporal-graph-fusion
 pip install -r requirements.txt
 ```
 
-Python 3.10+ and PyTorch 2.3+. Training needs a GPU; the tests run on a CPU.
+Python 3.10+ and PyTorch 2.3+. Training needs a GPU.
 
 ## Repository structure
 
@@ -21,15 +21,8 @@ Python 3.10+ and PyTorch 2.3+. Training needs a GPU; the tests run on a CPU.
 - `ncm460/`: second cell line
 - `baselines/`: 3D ResNet-34 comparison network
 - `data/`: split table and compound table of the A549 recordings
-- `tests/`: smoke tests on synthetic data
 
 ## Usage
-
-Check the installation (CPU, synthetic data, a few minutes):
-
-```bash
-python tests/run_smoke_test.py
-```
 
 Train and evaluate on A549 (settings of the paper in `configs/`, run folders are written to `runs/`):
 
